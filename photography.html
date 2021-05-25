@@ -38,6 +38,51 @@
            margin-right: auto;
             }
             h1 {text-align: center;}
+            .col-xl-4 {
+           margin-left: auto;
+           margin-right: auto;
+            }
+            .divwebpage {
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+            .divsinglephoto {
+              background-color: black;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .container {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 100%;
+              width: 100%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: rgb(173, 173, 173);
+            }
+            .container:hover .overlay {
+              opacity: 0.8;
+            }
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+            }
           </style>
       </head>
       <body>
@@ -54,8 +99,11 @@
                   </li>
             </ul>
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="mainpage.html">Home Page</a>
+              </li>
                 <li class="nav-item">
-                  <a style="color: white;" class="nav-link" href="photography.html"> Photography</a>
+                  <a style="color: white;" class="nav-link" href="photography.html">Photography</a>
                 </li>
                 <li class="nav-item">
                   <a style="color: white;" class="nav-link" href="traditionalart.html">Traditional Art</a>
@@ -65,27 +113,101 @@
                 </li>
               </ul>
         </nav>
+        <div class="divwebpage">
         <img src="image/black and white photo .jpg">
         <p></p>
-        <h1>MY PHOTOGRAPHS</h1>
-        <div class="container-fluid">
+          <h1>MY PHOTOGRAPHS</h1>
+          <p></p>
+          <p style="text-align: center">Welcome to my photography page</p>
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-xl-6" style="background-color: #e5c1b4;">
-                <p></p>
-                <div class="hahaimage">
-                <img src="image/haha.png" width="530" height="330">
-                <p></p>
+              <div class="col-xl-4">
+                <div class="container">
+                <img src="image/hand img.jpg" width="380" height="380">
+                <div class="overlay">
+                  <div class="text">Image description</div>
                 </div>
-                </div>               
-                <div class="col-xl-6" style="background-color: #e5c1b4;">
-                  <p></p>
-                  <h1>About Me</h1>
-                This is the blogging area <br>
-                All photos are found randomly on the internet <br>
-                I will insert mine later when I take them :( <br>
-                <a style="color: black; text-decoration: underline" href="blogging.html">Read more</a>
                 </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="container">
+                  <img src="image/hand img.jpg" width="380" height="380">
+                  <div class="overlay">
+                    <div class="text">Image description</div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="container">
+                  <img src="image/hand img.jpg" width="380" height="380">
+                  <div class="overlay">
+                    <div class="text">Image description</div>
+                  </div>
+                  </div>
+              </div>
             </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-4">
+                <div class="container">
+                <img src="image/aesthetic b&w.jpg" width="380" height="380">
+                <div class="overlay">
+                  <div class="text">Image description</div>
+                </div>
+                </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="container">
+                  <img src="image/aesthetic b&w.jpg" width="380" height="380">
+                  <div class="overlay">
+                    <div class="text">Image description</div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-xl-4">
+                <div class="container">
+                  <img src="image/aesthetic b&w.jpg" width="380" height="380">
+                  <div class="overlay">
+                    <div class="text">Image description</div>
+                  </div>
+                  </div>
+              </div>
             </div>
+          </div>
+          </div>
+          <p></p>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12" style="background-color: gray;">
+                <p>Lorem ipsum...</p>
+              </div>
+              </div>
+          </div>
+
+          <div class="container-fluid">
+            <h2>Heading</h2>
+            <p>Description</p>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xl-6">
+                  <img src="image/flower b&w.jpg" width="400" height="533.33" align="right">
+                </div>
+                <div class="col-xl-6">
+                   <img src="image/flower b&w.jpg" width="400" height="533.33">
+                </div>
+              </div>
+            </div>
+          </div>
+          <p></p>
+
+          <div class="divsinglephoto">
+            <p></p>
+            <img src="image/flower 3 b&w.jpg" width="1009.33" height="624">
+            <p></p>
+          </div>
+          </div>
       </body>
 </html>
