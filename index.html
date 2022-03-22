@@ -120,11 +120,11 @@
         /* Fading animation */
         .fade {
           -webkit-animation-name: fade;
-          -webkit-animation-duration: 2s;
+          -webkit-animation-duration: 1.5s;
           animation-name: fade;
-          animation-duration: 2s;
+          animation-duration: 1.5s;
         }
-
+        
         @-webkit-keyframes fade {
           from {opacity: .4} 
           to {opacity: 1}
@@ -133,7 +133,7 @@
         @keyframes fade {
           from {opacity: .4} 
           to {opacity: 1}
-        }
+        }  
 
         /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
@@ -247,6 +247,7 @@
               </div>
               
               <script>
+                /*
               var slideIndex = 1;
               showSlides(slideIndex);
               
@@ -273,7 +274,9 @@
                 slides[slideIndex-1].style.display = "block"; 
                 dots[slideIndex-1].className += " active";
               }
-
+              */
+                /*auto slideshow*/
+              
               var slideIndex = 0;
                 showSlides();
 
@@ -286,10 +289,13 @@
                   slideIndex++;
                   if (slideIndex > slides.length) {slideIndex = 1} 
                   slides[slideIndex-1].style.display = "block"; 
-                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                  setTimeout(showSlides, 1500); // Change image every 2 seconds
                 }
+                
+            
               </script>
-
+              
+            
           <br>
           <p style="text-align: center;">LATEST PROJECTS</p>
           <br>
@@ -298,7 +304,7 @@
             <div class="row">
               <div class="col-lg">
                 <a href="the aesthetic.html">
-                <img src="Aesthetic photos/_DSF7209.jpg" style="width: 80%;">
+                <img src="Aesthetic photos/_DSF7209.jpg" style="width: 100%;">
                 </a>
                   <p>THE AESTHETIC <br> 
                     Photography</p>
@@ -306,7 +312,7 @@
               </div>
               <div class="col-lg">
                 <a href="VSAUWB.html">
-                <img src="VSAUWB/IMG_0219.PNG" style="width: 80%;">
+                <img src="VSAUWB/IMG_0219.PNG" style="width: 100%;">
                 </a>
                 <p>UWB Vietnamsese Student Association <br>
                     Graphic Design</p>
